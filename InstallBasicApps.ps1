@@ -30,8 +30,8 @@ Write-Output "Install: Microsoft SQL Server Management Studio"
 winget.exe install SQLServerManagementStudio
 
 
-Write-Output "Install: Oracle Virtual Box"
-winget.exe install Oracle.VirtualBox
+#Write-Output "Install: Oracle Virtual Box"
+#winget.exe install Oracle.VirtualBox
 
 Write-Output "Install: Spotify"
 winget.exe install Spotify
