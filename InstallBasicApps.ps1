@@ -48,6 +48,12 @@ winget.exe install WhatsApp.WhatsApp
 Write-Output "Install: MatterMost client"
 winget.exe install Mattermost.MattermostDesktop
 
+Write-Output "Install: Google backup and sync"
+winget.exe install Google.BackupAndSync
+
+Write-Output "Install: Google file stream"
+winget.exe install Google.DriveFileStream
+
 Write-Output "Zelf installeren:" 
 Start-Process chrome https://keepass.info
 Start-Process chrome https://www.sonos.com
