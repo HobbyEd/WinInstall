@@ -10,6 +10,8 @@ winget.exe install Microsoft.PowerToys
 winget.exe install Microsoft.AzureCLI
 winget.exe install SQLServerManagementStudio
 
+
+winget.exe install Oracle.VirtualBox
 winget.exe install Spotify
 winget.exe install VideoLAN.VLC
 winget.exe install Microsoft.Teams 
@@ -21,3 +23,4 @@ Start-Process chrome https://keepass.info
 Start-Process chrome https://www.sonos.com
 Start-Process chrome https://www.dotpdn.com/downloads/pdn.html
 Start-Process chrome https://www.bizagi.com/en/platform/modeler
+Start-Process chrome https://www.VisualStudio.com 
