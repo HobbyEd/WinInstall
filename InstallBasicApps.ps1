@@ -45,6 +45,8 @@ winget.exe install Microsoft.Teams
 Write-Output "Install: Whatsapp Desktop"
 winget.exe install WhatsApp.WhatsApp
 
+Write-Output "Install: MatterMost client"
+winget.exe install Mattermost.MattermostDesktop
 
 Write-Output "Zelf installeren:" 
 Start-Process chrome https://keepass.info
@@ -52,3 +54,4 @@ Start-Process chrome https://www.sonos.com
 Start-Process chrome https://www.dotpdn.com/downloads/pdn.html
 Start-Process chrome https://www.bizagi.com/en/platform/modeler
 Start-Process chrome https://www.VisualStudio.com 
+
