@@ -2,6 +2,9 @@ Clear-Host
 Write-Output "Install: Google Chrome"
 winget.exe install Google.Chrome
 
+Write-Output "Install: Git"
+winget.exe install Git.Git
+
 Write-Output "Install: Visual Studio Code"
 winget.exe install Microsoft.VisualStudioCode
 
