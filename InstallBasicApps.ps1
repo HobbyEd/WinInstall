@@ -8,8 +8,8 @@ winget.exe install -h Git.Git
 Write-Output "Install: Visual Studio Code"
 winget.exe install -h Microsoft.VisualStudioCode
 
-Write-Output "Install: Visual Studio Professional"
-winget.exe install -h Microsoft.VisualStudio.Professional
+Write-Output "Install: Visual Studio Enterprise"
+winget.exe install -h Microsoft.VisualStudio.Enterprise
 
 Write-Output "Install: Windows Terminal"
 winget.exe install -h Microsoft.WindowsTerminal
@@ -19,9 +19,6 @@ winget.exe install -h Notepad++
 
 Write-Output "Install: Docker Desktop"
 winget.exe install -h Docker.Desktop
-
-Write-Output "Install: Postman"
-winget.exe install -h Postman.Postman 
 
 Write-Output "Install: PowerToys"
 winget.exe install -h Microsoft.PowerToys
@@ -56,6 +53,9 @@ winget.exe install -h Google.BackupAndSync
 
 Write-Output "Install: Google file stream"
 winget.exe install -h Google.DriveFileStream
+
+Write-Output "Install: Ditto"
+winget.exe install -h ditto.ditto
 
 Write-Output "Zelf installeren:" 
 Start-Process chrome https://keepass.info
