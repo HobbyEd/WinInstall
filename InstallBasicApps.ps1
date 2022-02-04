@@ -11,17 +11,11 @@ winget.exe install -h -e Microsoft.VisualStudioCode --override "/verysilent /sup
 Write-Output "Install: Visual Studio Enterprise"
 winget.exe install -h Microsoft.VisualStudio.Enterprise
 
-Write-Output "Install: Windows Terminal"
-winget.exe install -h Microsoft.WindowsTerminal
-
 Write-Output "Install: Notepad++"
-winget.exe install -h Notepad++
+winget.exe install -h Notepad++.Notepad++
 
 Write-Output "Install: Docker Desktop"
 winget.exe install -h Docker.Desktop
-
-Write-Ouput "Kubernetes.minikube"
-winget.exe install -h Kubernetes.minikube
 
 Write-Output "Install: PowerToys"
 winget.exe install -h Microsoft.PowerToys
