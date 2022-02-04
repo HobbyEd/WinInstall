@@ -6,7 +6,7 @@ Write-Output "Install: Git"
 winget.exe install -h Git.Git
 
 Write-Output "Install: Visual Studio Code"
-winget.exe install -h Microsoft.VisualStudioCode
+winget.exe install -h -e Microsoft.VisualStudioCode --override "/verysilent /suppressmsgboxes /tasks=!runCode,!desktopicon,quicklaunchicon,addcontextmenufiles,addcontextmenufolders,associatewithfiles,addtopath"
 
 Write-Output "Install: Visual Studio Enterprise"
 winget.exe install -h Microsoft.VisualStudio.Enterprise
@@ -20,6 +20,9 @@ winget.exe install -h Notepad++
 Write-Output "Install: Docker Desktop"
 winget.exe install -h Docker.Desktop
 
+Write-Ouput "Kubernetes.minikube"
+winget.exe install -h Kubernetes.minikube
+
 Write-Output "Install: PowerToys"
 winget.exe install -h Microsoft.PowerToys
 
@@ -29,9 +32,8 @@ winget.exe install -h Microsoft.AzureCLI
 Write-Output "Install: Microsoft SQL Server Management Studio"
 winget.exe install -h SQLServerManagementStudio
 
-
-#Write-Output "Install: Oracle Virtual Box"
-#winget.exe install -h Oracle.VirtualBox
+Write-Output "Install: Oracle Virtual Box"
+winget.exe install -h Oracle.VirtualBox
 
 Write-Output "Install: Spotify"
 winget.exe install -h Spotify
@@ -57,10 +59,41 @@ winget.exe install -h Google.DriveFileStream
 Write-Output "Install: Ditto"
 winget.exe install -h ditto.ditto
 
-Write-Output "Zelf installeren:" 
-Start-Process chrome https://keepass.info
-Start-Process chrome https://www.sonos.com
-Start-Process chrome https://www.dotpdn.com/downloads/pdn.html
-Start-Process chrome https://www.bizagi.com/en/platform/modeler
-Start-Process chrome https://www.VisualStudio.com 
+Write-Output "KeePass"
+winget.exe install -h KeePass
 
+Write-Output "Sonos.Controller"
+winget.exe install -h Sonos.Controller
+
+Write-Output "draw.io"
+winget.exe install -h draw.io
+
+Write-Output "FileZilla"
+winget.exe install -h FileZilla
+
+Write-Output "Logitech.Options"
+winget.exe install -h Logitech.Options
+
+Write-Output "PasswordSafe" 
+winget.exe install -h PasswordSafe
+
+Write-Output "Balena.Etcher"
+winget.exe install -h Balena.Etcher
+
+Write-Output "Python.Python.3"
+winget.exe install -h Python.Python.3
+
+Write-Ouput "Node.JS"
+winget.exe install -h OpenJS.NodeJS
+
+Write-Output "Paint.net"
+winget.exe install -h paint.net
+
+Write-Ouput "Microsoft .NET SDK"
+winget install -e --id Microsoft.dotnet
+
+Write-Ouput "Microsoft.AzureCLI"
+winget install -h Microsoft.AzureCLI
+
+Write-Ouput "ExpressVPN.ExpressVPN"
+winget install -h ExpressVPN.ExpressVPN
