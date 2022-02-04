@@ -74,17 +74,17 @@ winget.exe install -h Balena.Etcher
 Write-Output "Python.Python.3"
 winget.exe install -h Python.Python.3
 
-Write-Ouput "Node.JS"
+Write-Output "Node.JS"
 winget.exe install -h OpenJS.NodeJS
 
 Write-Output "Paint.net"
 winget.exe install -h paint.net
 
-Write-Ouput "Microsoft .NET SDK"
+Write-Output "Microsoft .NET SDK"
 winget install -e --id Microsoft.dotnet
 
-Write-Ouput "Microsoft.AzureCLI"
+Write-Output "Microsoft.AzureCLI"
 winget install -h Microsoft.AzureCLI
 
-Write-Ouput "ExpressVPN.ExpressVPN"
+Write-Output "ExpressVPN.ExpressVPN"
 winget install -h ExpressVPN.ExpressVPN
