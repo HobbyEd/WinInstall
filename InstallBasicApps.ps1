@@ -45,10 +45,7 @@ Write-Output "Install: MatterMost client"
 winget.exe install -h Mattermost.MattermostDesktop
 
 Write-Output "Install: Google backup and sync"
-winget.exe install -h Google.BackupAndSync
-
-Write-Output "Install: Google file stream"
-winget.exe install -h Google.DriveFileStream
+winget.exe install -h Google.BackupAndSync 
 
 Write-Output "Install: Ditto"
 winget.exe install -h ditto.ditto
